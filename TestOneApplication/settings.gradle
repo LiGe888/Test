@@ -1,4 +1,7 @@
 include ':app'
 
 include(':testtwolibrary')
-project(':testtwolibrary').projectDir = new File("../testtwolibrary");
+project(':testtwolibrary').projectDir = new File("../testtwolibrary")
+
+include(':thor_lee')
+project(':thor_lee').projectDir = new File("../thor_lee")
